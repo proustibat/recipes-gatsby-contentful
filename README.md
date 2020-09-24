@@ -2,16 +2,19 @@
 
 <p align="center">
     <a href="http://commitizen.github.io/cz-cli/" target="_blank">
-        <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" target="_blank" />
+        <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"/>
     </a>
     <a href="https://github.com/prettier/prettier" target="_blank">
-        <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" target="_blank">
+        <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+    </a>
+    <a href="https://app.netlify.com/sites/prstbt-recipes/deploys" target="_blank">
+        <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/cd827ace-5367-42b0-bc5a-14b0be709ff6/deploy-status">
     </a>
 </p>
 
 ## ✨ Demo
 
-<em>// todo</em>
+[https://prstbt-recipes.netlify.app/](https://prstbt-recipes.netlify.app/)
 
 ## 🚀 Quick start
 
