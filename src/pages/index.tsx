@@ -44,7 +44,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = ({ data, pageContext }) => {
           {data?.allContentfulPost?.nodes?.map(
             ({ id, contentful_id, title, slug }) => (
               <li key={`${id}-${contentful_id}`}>
-                <Link to={slug}>{title}</Link>
+                <Link to={`/${slug}`}>{title}</Link>
               </li>
             ),
           )}
