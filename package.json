@@ -64,7 +64,7 @@
     "cz-emoji": "1.2.2",
     "fs-extra": "9.0.1",
     "gatsby-source-contentful": "2.3.47",
-    "husky": ">=4",
+    "husky": "4.3.0",
     "jest": "26.4.2",
     "lint-staged": "10.4.0",
     "path": "0.12.7",
