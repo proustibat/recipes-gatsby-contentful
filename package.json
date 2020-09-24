@@ -14,7 +14,9 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
+    "export-cms-data": "contentful space export --space-id $CONTENTFUL_SPACE_ID --download-assets --content-file ./contentful/cms-data.json --save-file",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "import-cms-data": "contentful space import --space-id $CONTENTFUL_SPACE_ID --content-file ./contentful/cms-data.json --update",
     "serve": "gatsby serve",
     "start": "yarn develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

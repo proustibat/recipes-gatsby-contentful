@@ -18,32 +18,58 @@
 
 ## 🚀 Quick start
 
-1.  **Installation.**
+1.  **CMS Configuration**
 
-    Be sure you installed gatsby (`yarn global add gatsby-cli` or `npm install -g gatsby-cli`).
+    1. Create an account and a space on [Contentful](https://www.contentful.com/).
 
-    _Then install project's packages:_
+    2. Create a `.env` locally with your credentials as follows:
+
+       ```shell
+       export CONTENTFUL_SPACE_ID=xxx000xxx0x0
+       export CONTENTFUL_DELIVERY_API=xXXXXxxXXxXx0XxXXXx0xxxxxXxxxXxXxX00xxxXXxX
+       export CONTENTFUL_PREVIEW_API=0XxXx0xxX0XxxXXxXxxxX0xxxx0xXxxxxx0Xx0xxx0x
+       export DEBUG=true
+       ```
+
+       I suggest you tu use [direnv](https://direnv.net/) to manage your environment variables.
+
+    3. Be sure contentful-cli (read [Contentful-cli](https://www.contentful.com/developers/docs/tutorials/cli/installation/) documentation) is installed and you're logged-in (read [Contenful Authentication](https://www.contentful.com/developers/docs/tutorials/cli/authentication/) documentation).
+
+    4. Import content model provided :
+
+       ```shell
+       yarn import-cms-data
+       ```
+
+    <em>Read [Importing and exporting content with the Contentful CLI](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/) documentation)</em>
+
+    You can export data later if you want:
 
     ```shell
-    # With yarn
+    yarn export-cms-data
+    ```
+
+2.  **Client Installation.**
+
+    Be sure you installed [Gatsby](https://www.gatsbyjs.com/) (`yarn global add gatsby-cli`).
+
+    Then install project's packages:
+
+    ```shell
     yarn
-    # Or with npm
-    npm i
     ```
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+3.  **Start developing.**
 
     ```shell
-    yarn develop
+    yarn start
     ```
 
-3.  **Open the source code and start editing!**
+4.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+    Your site is now running at [`http://localhost:8000`](http://localhost:8000)!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+    Note: You'll also see a second link: [`http://localhost:8000/___graphql`](http://localhost:8000/___graphql). This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql).
 
 ## 🧐 What's inside?
 
