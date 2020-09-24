@@ -1,0 +1,4 @@
+{
+  "title": "Gatsby supporte TypeScript par défaut!",
+  "description": "Ca veut dire que tu peux creer et ecrire des fichiers <em>.ts/.tsx</em> pour tes pages, composants, etc. Note que les fichiers <em>gatsby-*.js</em> (comme gatsby-node.js) actuellement ne supportent pas TypeScript yet."
+}
