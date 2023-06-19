@@ -61,7 +61,7 @@
     "@types/react-dom": "16.9.8",
     "@types/react-helmet": "6.1.0",
     "@types/react-test-renderer": "16.9.3",
-    "commitizen": "4.2.1",
+    "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "cz-emoji": "1.2.2",
     "fs-extra": "9.0.1",
